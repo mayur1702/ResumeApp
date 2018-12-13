@@ -1,0 +1,108 @@
+.resume-header{
+    width: 100%;
+    height:80px;    
+    line-height: 80px !important;
+    background-color: rgb(8, 104, 96);
+
+    .name,.designation{
+        height: 80px;
+        color: white;
+        span:first-child{
+            margin: auto auto auto 30px;
+            font-size: 32px;
+        }
+        span:nth-child(2){
+            font-size: 16px;
+            margin-left: 10px;
+        }
+    }
+}
+.resume-content{
+    width: 100%;
+    height: calc(100% - 80px);
+    background-color: #ecececb6;
+    display: flex;
+    .resume-left-side-content{
+        width: 35%;
+        height: 100%;
+        border-right: 1px solid rgba(121, 121, 121, 0.486);
+        padding: 30px 15px 15px 15px;
+        box-sizing: border-box;
+        overflow: auto;
+        .Technical-skills-container{
+            width: 100%;
+            // height: 400px;
+            padding-bottom: 10px;
+            // background-color: #ccc;
+            margin-bottom: 15px;            
+            .Technical-skills-header{
+                width: 100%;
+                height: 40px;
+                line-height: 40px;
+                display: flex;
+                background-color: rgb(8, 104, 96);
+                color: white;
+                span{
+                    font-size: 18px;
+                    margin: auto;
+                }
+            }
+            .skills-list{
+                padding: 10px;
+            }
+
+        }
+    }
+    .resume-right-side-content{
+        width: 65%;
+        height: 100%;
+        // background-color: #ccc;
+        padding: 30px 15px 15px 15px;
+        box-sizing: border-box;
+        overflow: auto;
+        .work-experience-container{
+            width: 100%;            
+            // background-color: #ccc;
+            .work-experience-header{
+                width: 100%;
+                height: 40px;
+                background-color: rgb(8, 104, 96);
+                display: flex;
+                span{
+                    margin: auto;
+                    font-size: 18px;
+                    color: white;
+                }
+            }
+            .work-experience-content{
+                width: 100%;
+                padding: 15px 30px;
+                box-sizing: border-box;
+                div:first-child,div:nth-child(3){
+                    // padding: 2px;
+                    // border-bottom: 1px solid black;
+                    display: flex;
+                    font-weight: 600;
+                    span:first-child{
+                        margin: auto auto auto 0px;                        
+                    }
+                    span:nth-child(2){
+                        margin: auto 0px auto auto;
+                    }
+                }
+                div{
+                    ul{
+                        li{
+                            span{
+                                border-bottom: 1px solid black;
+                            }
+                            p{
+                                margin: 5px 0px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
