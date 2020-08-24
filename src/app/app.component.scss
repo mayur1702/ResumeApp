@@ -79,23 +79,25 @@
                 width: 100%;
                 padding: 10px 20px;
                 box-sizing: border-box;
-                div:first-child,div:nth-child(3){
-                    // padding: 2px;
-                    // border-bottom: 1px solid black;
+                
+                .company-details {
                     display: flex;
-                    font-weight: 600;
-                    span:first-child{
+                    .company-name {
                         margin: auto auto auto 0px;                        
+                        font-weight: 600;
                     }
-                    span:nth-child(2){
+                    .company-period {
                         margin: auto 0px auto auto;
+                        font-weight: 600;
+    
                     }
                 }
+                
                 div{
                     ul{
                         padding-left: 20px;
                         li{
-                            font-size: 14px;
+                            font-size: 16px;
                             span{
                                 border-bottom: 1px solid black;
                             }

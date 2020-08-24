@@ -1,0 +1,16 @@
+Media.net, Mumbai
+May 2019 - Present
+Migrated and Re-designed the entire architecture of legacy based application to support dynamic generation of form and view based on user access and form settings, also Dockerized the application. 
+Worked on CMS to create dynamic flows and landers based on the regex settings.
+Worked on creating/modiying browser extension features for Chrome and Firefox.
+Integrated several third party API's to add support on landers, Eg: Bing, EasyPost, etc.
+Technologies/Libraries: Angular, React, Node.js, MySQL, Redis, PHP, Java, Gulp, AWS S3, Docker, PrimeNG.
+
+
+Infosys Ltd, Bengaluru
+Jan, 2018 - May, 2019
+Was in three member core development team responsible for developing Hold & Release management system as a part of Proof of Concept which was appreciated by client and resulted in global POC.
+Implemented the frontend architecture from scratch.
+Designed the data model considering the requirements of client, performance and security.
+Used third party libraries like bcrypt, JWT for making secure application.
+Technologies/Libraries: Angular 6, Express.js, JWT, bcrypt, MySQL, Kendo Grid, Angular Material, Bootstrap
