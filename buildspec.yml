@@ -2,6 +2,5 @@ version: 0.2
 
 artifacts:
     files:
-        - "**/*"
+        - "dist/*"
     discard-paths: no
-    base-directory: dist
