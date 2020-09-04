@@ -1,6 +1,13 @@
 version: 0.2
 
+phases:
+    build:
+        commands:
+            - echo build success
+            
+
 artifacts:
     files:
-        - "dist/*"
+        - '**/*'
     discard-paths: no
+    base-directory: 'dist'
